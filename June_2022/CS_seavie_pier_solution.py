@@ -78,7 +78,7 @@ def add_records():
         members[full_name]['joined_date'] = join_date.date()
 
 def reports_view():
-    pass
+    print(f'Total members: {len(members)}')
 
 while True:
     print('Enter the options: ')
